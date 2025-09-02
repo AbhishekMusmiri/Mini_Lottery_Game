@@ -1,7 +1,7 @@
 let playbtn = document.getElementById("playbtn");
 let result = document.getElementById("display_result");
 let result_num = document.getElementById("result_num");
-let clickSound = new Audio("./audio/button-305770.mp3");
+let clickSound = new Audio(".button-305770.mp3");
 
 let gifts = ["laptop", "₹ 25,000", "Mobile Phone", "Cycle", "Scooty", "Car"];
 playbtn.addEventListener("click", function() {
@@ -14,3 +14,4 @@ playbtn.addEventListener("click", function() {
 
 });
     console.log(Math.floor((Math.random()*6)+1));
+
